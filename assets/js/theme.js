@@ -12,6 +12,11 @@ function toggleTheme() {
         document.documentElement.setAttribute('data-theme', 'light');
     }
     
+    // update portrait for new theme
+    if (typeof updatePortrait === 'function') {
+        updatePortrait();
+    }
+
     // Update button
     const btn = document.getElementById('theme-toggle');
     if (btn) {

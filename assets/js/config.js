@@ -9,6 +9,16 @@ if (storedTheme === 'dark') {
     window.isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 }
 
+// portraits for light/dark modes
+const portraitLight = "/Portrait.png";
+const portraitDark = "/Portrait2.png";
+
+function updatePortrait() {
+    const img = document.querySelector('.profile-pic');
+    if (!img) return;
+    img.src = window.isDarkMode ? portraitDark : portraitLight;
+}
+
 // Apply theme immediately to avoid flash
 function applyTheme() {
     if (window.isDarkMode) {
@@ -18,6 +28,7 @@ function applyTheme() {
         document.documentElement.setAttribute('data-theme', 'light');
         document.body.classList.remove('dark-mode');
     }
+    updatePortrait();
 }
 
 // Apply on load
