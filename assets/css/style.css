@@ -9,6 +9,7 @@
     --border-color: #ddd;
     --link-color: #0066cc;
     --link-hover: #0055aa;
+    --heading-color: #0059b3;
     --footer-bg: #333;
     --footer-text: #fff;
     --pic-border: transparent;
@@ -26,6 +27,7 @@
     --border-color: #333;
     --link-color: #80c0ff;
     --link-hover: #aedfff;
+    --heading-color: #5fa3d6;
     --footer-bg: #1e1e1e;
     --footer-text: #e0e0e0;
     --pic-border: #444;
@@ -104,9 +106,9 @@ section {
 }
 
 section h2 {
-    color: var(--link-color);
+    color: var(--heading-color);
     margin-bottom: 15px;
-    border-bottom: 2px solid var(--link-color);
+    border-bottom: 2px solid var(--heading-color);
     padding-bottom: 10px;
 }
 
