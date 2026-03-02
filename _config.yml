@@ -1,9 +1,9 @@
 # Jekyll site configuration
-title: "[YOUR FULL NAME]"
-subtitle: "[Your University/Current Position]"
-description: "Academic website for [YOUR NAME]"
+title: "Matthias Pfeifer"
+subtitle: "Doctoral Candidate at TUM"
+description: "Academic website for Matthias Pfeifer"
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://matthias-pfeifer.github.io"
 
 # Build settings
 theme: null

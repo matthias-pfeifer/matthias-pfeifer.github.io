@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research
+title: Matthias Pfeifer - Research
 permalink: /research/
 ---
 

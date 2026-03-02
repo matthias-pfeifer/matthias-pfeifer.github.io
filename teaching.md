@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teaching
+title: Matthias Pfeifer - Teaching
 permalink: /teaching/
 ---
 
