@@ -19,7 +19,8 @@ function updatePortrait() {
     img.src = window.isDarkMode ? portraitDark : portraitLight;
 }
 
-// Apply theme immediately to avoid flash
+// Apply theme immediately when config script loads
+// (initial class may already have been set via inline snippet in head)
 function applyTheme() {
     if (window.isDarkMode) {
         document.documentElement.setAttribute('data-theme', 'dark');
