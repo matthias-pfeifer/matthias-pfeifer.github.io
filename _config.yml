@@ -1,0 +1,24 @@
+# Jekyll site configuration
+title: "[YOUR FULL NAME]"
+subtitle: "[Your University/Current Position]"
+description: "Academic website for [YOUR NAME]"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+theme: null
+plugins: []
+
+# Exclude files from build
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - .git
+
+# Keep original file extensions
+keep_files:
+  - assets

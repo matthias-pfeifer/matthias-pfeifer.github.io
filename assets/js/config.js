@@ -1,5 +1,13 @@
 // Simple global config - read from localStorage once on each page
-window.isDarkMode = localStorage.getItem('theme') === 'dark';
+const storedTheme = localStorage.getItem('theme');
+if (storedTheme === 'dark') {
+    window.isDarkMode = true;
+} else if (storedTheme === 'light') {
+    window.isDarkMode = false;
+} else {
+    // no preference stored – fall back to system
+    window.isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
 
 // Apply theme immediately to avoid flash
 function applyTheme() {
