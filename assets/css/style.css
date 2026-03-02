@@ -46,6 +46,13 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-body);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 header {
@@ -99,7 +106,7 @@ main {
 
 section {
     background-color: var(--bg-section);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -131,7 +138,6 @@ footer {
     color: var(--footer-text);
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
 }
 
 a {
