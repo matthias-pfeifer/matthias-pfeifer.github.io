@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <!-- inline theme check: applies dark-mode class before CSS loads to avoid flash -->
     <script>
       (function() {
         try {
@@ -23,7 +22,6 @@
 <body>
     {% include header.html %}
     {% include nav.html %}
-    <!-- immediately set theme toggle icon to match current mode (avoids flashing moon->sun) -->
     <script>
       (function(){
         var btn = document.getElementById('theme-toggle');
