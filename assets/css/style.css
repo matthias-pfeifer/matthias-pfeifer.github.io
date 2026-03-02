@@ -99,7 +99,8 @@ nav #theme-toggle {
 }
 
 main {
-    max-width: 900px;
+    width: 90%;           /* fill most of viewport but leave margin */
+    max-width: 800px;     /* cap on large screens */
     margin: 30px auto;
     padding: 0 20px;
 }
