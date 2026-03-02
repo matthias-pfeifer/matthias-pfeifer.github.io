@@ -9,7 +9,7 @@ permalink: /contact/
     <div class="contact-info">
         <p><strong>Email:</strong> <a href="mailto:[your-email]">[your-email]</a></p>
         <p><strong>Office:</strong> [University name], [Building], Room [number]</p>
-        <p><strong>Phone:</strong> [Your phone - optional]</p>
+        <p><strong>Phone:</strong> [Your phone]</p>
     </div>
 </section>
 
