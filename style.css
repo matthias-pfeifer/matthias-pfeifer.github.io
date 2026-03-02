@@ -1,0 +1,165 @@
+/* global styles for personal website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+nav #theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 20px;
+}
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 10px;
+}
+
+.contact-info {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #0066cc;
+}
+
+.publication, .project {
+    margin: 15px 0;
+    padding: 10px;
+    border-left: 3px solid #999;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* profile picture styling */
+.profile-pic {
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* inline code blocks */
+code, pre {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+/* dark-mode variants via media query */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    header, nav, section, footer {
+        background-color: #1e1e1e;
+        border-color: #333;
+    }
+    a { color: #80c0ff; }
+    a:hover { color: #aedfff; }
+    .profile-pic { border-color: #444; }
+    code, pre {
+        background-color: #2b2b2b;
+        color: #f8f8f2;
+    }
+}
+
+/* manual dark-mode toggle class */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.dark-mode header,
+.dark-mode nav,
+.dark-mode section,
+.dark-mode footer {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+.dark-mode a { color: #80c0ff; }
+.dark-mode a:hover { color: #aedfff; }
+.dark-mode .profile-pic { border-color: #444; }
+.dark-mode code,
+.dark-mode pre {
+    background-color: #2b2b2b;
+    color: #f8f8f2;
+}
