@@ -15,10 +15,9 @@ permalink: /contact/
 <section id="links">
     <h2>Links & Resources</h2>
     <p>
-        <a href="[Google Scholar URL]">Google Scholar</a><br>
-        <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/search/math?query=Pfeifer%2C+Matthias&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a><br>
-        <a href="[ORCID URL]">ORCID</a><br>
-        <a href="[GitHub URL]">GitHub</a><br>
-        <a href="[Your CV]">Curriculum Vitae (PDF)</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/search/math?query=Pfeifer%2C+Matthias&searchtype=author&">arXiv</a><br>
+        <a target="_blank" rel="noopener noreferrer" href="https://orcid.org/0009-0005-2135-7900">ORCID</a><br>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.math.cit.tum.de/algebra/personen/matthias-pfeifer/">TUM Webpage</a><br>
+        <a target="_blank" rel="noopener noreferrer" href="/cv.pdf">Curriculum Vitae (PDF)</a>
     </p>
 </section>

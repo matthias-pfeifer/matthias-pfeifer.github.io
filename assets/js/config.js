@@ -10,8 +10,8 @@ if (storedTheme === 'dark') {
 }
 
 // portraits for light/dark modes
-const portraitLight = "/Portrait.png";
-const portraitDark = "/Portrait-dark.png";
+const portraitLight = "/Portrait.jpg";
+const portraitDark = "/Portrait.jpg";
 
 function updatePortrait() {
     const img = document.querySelector('.profile-pic');
