@@ -141,6 +141,7 @@ h3 {
 }
 
 .contact-info {
+    overflow: hidden;
     background-color: var(--bg-nav);
     padding: 15px;
     margin: 10px 0;
@@ -174,6 +175,7 @@ a:hover {
 .profile-pic {
     float: right;
     margin-left: 20px;
+    margin-bottom: 10px;
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -249,4 +251,10 @@ td, th {
 span {
   border-bottom: 1px dotted;        /* dotted underline */
   cursor: help;                     /* shows ? or help cursor */
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  gap: 20px;
 }
