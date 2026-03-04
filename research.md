@@ -43,7 +43,7 @@ permalink: /research/
         </tr>
         <tr>
         <td style="text-align: right">2025</td>
-        <td><i>Deformations of toric sufrace singularies in positive characteristic</i>, GAeL XXXII</td>
+        <td><i>Deformations of toric surface singularities in positive characteristic</i>, GAeL XXXII</td>
         </tr>
         <tr>
         <td style="text-align: right">2025</td>

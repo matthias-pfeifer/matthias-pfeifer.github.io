@@ -9,7 +9,7 @@
     --link-color: #0066cc;
     --link-hover: #0055aa;
     --heading-color: #0059b3;
-    --subheading-color: #0072be;
+    --subheading-color: #333;
     --footer-bg: #333;
     --footer-text: #fff;
     --pic-border: transparent;
@@ -136,7 +136,7 @@ section h2 {
 }
 
 h3 {
-    color: var(--subheading -color);
+    color: var(--subheading-color);
     margin-top: 15px;
 }
 

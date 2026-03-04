@@ -28,13 +28,13 @@ permalink: /teaching/
       <p><q>Very committed, very well prepared, and conveys the content clearly.</q></p>
     </div>
     <div class="slide">
-      <p><q>Mathias Pfeifer is a blessing for all of us.</q></p>
+      <p><q>Matthias Pfeifer is a blessing for all of us.</q></p>
     </div>
     <div class="slide">
       <p><q>The central exercise is very helpful, as the lecturer is very good at explaining difficult topics and also responds to questions.</q></p>
     </div>
     <div class="slide">
-      <p><q>Explaineds very clearly and vividly at a good pace.</q></p>
+      <p><q>Explains very clearly and vividly at a good pace.</q></p>
     </div>
     <div class="slide">
       <p><q>Shares his intuition, is very well received.</q></p>
