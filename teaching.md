@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Matthias Pfeifer - Teaching
-permatdnk: /teaching/
+permalink: /teaching/
 ---
 
 <div class="banner">
