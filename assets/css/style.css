@@ -173,9 +173,8 @@ a:hover {
 
 /* profile picture styling */
 .profile-pic {
-    float: right;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     width: 150px;
     height: 150px;
     object-fit: cover;
