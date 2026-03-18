@@ -8,7 +8,7 @@ permalink: /teaching/
   <div class="slider"> 
           <div class="slide">
       <p><q>For me, as for many of my fellow students, it is one of the most important hours of the week.</q></p>
-    </div>
+    </div>  
     <div class="slide">
       <p><q>The central exercise class is truly worth its weight in gold.</q></p>
     </div>
@@ -28,9 +28,6 @@ permalink: /teaching/
       <p><q>Very committed, very well prepared, and conveys the content clearly.</q></p>
     </div>
     <div class="slide">
-      <p><q>Matthias Pfeifer is a blessing for all of us.</q></p>
-    </div>
-    <div class="slide">
       <p><q>The central exercise is very helpful, as the lecturer is very good at explaining difficult topics and also responds to questions.</q></p>
     </div>
     <div class="slide">
@@ -43,13 +40,7 @@ permalink: /teaching/
       <p><q>He responds exceptionally well to questions, and after the central exercise class, you have a much better understanding of the material.</q></p>
     </div>
     <div class="slide">
-      <p><q>Matthias Pfeifer is the GOAT</q></p>
-    </div>
-    <div class="slide">
       <p><q>By far the most helpful course of WiSe2024/25.</q></p>
-    </div>
-    <div class="slide">
-      <p><q>By far the best class, thank you!</q></p>
     </div>
     <div class="slide">
       <p><q>Saves me every week</q></p>
@@ -59,9 +50,6 @@ permalink: /teaching/
     </div>
     <div class="slide">
       <p><q>Great lecturer, extremely helpful</q></p>
-    </div>
-    <div class="slide">
-      <p><q>A truly dedicated lecturer!</q></p>
     </div>
     </div>
     <p style="margin-left: 35%">
