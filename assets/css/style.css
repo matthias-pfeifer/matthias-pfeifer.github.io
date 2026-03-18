@@ -113,7 +113,7 @@ nav a:hover {
 }
 
 main {
-    width: 90%;           /* fill most of viewport but leave margin */
+    width: 100%;           /* fill most of viewport but leave margin */
     max-width: 900px;     /* cap on large screens */
     margin: 30px auto;
     padding: 0 20px;
@@ -125,6 +125,7 @@ section {
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
 }
 
 section h2 {
@@ -175,11 +176,12 @@ a:hover {
 .profile-pic {
     margin-left: 20px;
     margin-bottom: 0px;
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 10%;
     border: 2px solid var(--pic-border);
+    display: block;
 }
 
 /* inline code blocks */
@@ -256,4 +258,19 @@ span {
   display: grid;
   grid-template-columns: 1fr 150px;
   gap: 20px;
+}
+
+/* box where the content changes depending on the size of the box */
+.size-reactive-box {
+    container-type: inline-size;
+    display: block;
+}
+
+.full-size-content { display: inline; }
+.compact-content { display: none; }
+
+/* show/hide content based on container size */
+@container (max-width: 160px) {
+  .full-size-content { display: none; }
+  .compact-content { display: inline; }
 }
