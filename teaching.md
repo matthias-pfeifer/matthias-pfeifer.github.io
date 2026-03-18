@@ -5,8 +5,9 @@ permalink: /teaching/
 ---
 
 <div class="banner">
+<div style="position: relative">
   <div class="slider"> 
-          <div class="slide">
+    <div class="slide">
       <p><q>For me, as for many of my fellow students, it is one of the most important hours of the week.</q></p>
     </div>  
     <div class="slide">
@@ -51,12 +52,13 @@ permalink: /teaching/
     <div class="slide">
       <p><q>Great lecturer, extremely helpful</q></p>
     </div>
-    </div>
-    <p style="margin-left: 35%">
-    Students feedback for the central exercise class for Linear Algebra for Physics I held in 2024/25 and which got me the teaching award <a target="_blank" rel="noopener noreferrer" href="https://www.nat.tum.de/en/nat/latest/article/2025-day-of-physics-celebrates-excellence-in-teaching-and-research/"><em>Golden Chalk</em></a></p>
+  </div>
 
   <button class="prev">&#10094;</button>
   <button class="next">&#10095;</button>
+  </div>
+  <p style="margin-left: 35%">
+    Students feedback for the central exercise class for Linear Algebra for Physics I held in 2024/25 and which got me the teaching award <a target="_blank" rel="noopener noreferrer" href="https://www.nat.tum.de/en/nat/latest/article/2025-day-of-physics-celebrates-excellence-in-teaching-and-research/"><em>Golden Chalk</em></a></p>
 </div>
 
 <section id="current teaching">

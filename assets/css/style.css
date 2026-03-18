@@ -218,6 +218,9 @@ code, pre {
 .slide {
   min-width: 100%;
   padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.6;
@@ -226,7 +229,7 @@ code, pre {
 /* Buttons */
 .banner button {
   position: absolute;
-  top: 35%;
+  top: 50%;
   transform: translateY(-50%);
   background: var(--bg-banner-button);
   border: none;
