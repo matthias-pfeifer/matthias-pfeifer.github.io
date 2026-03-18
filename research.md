@@ -35,7 +35,7 @@ permalink: /research/
         </tr>
         <tr>
         <td style="text-align: right">2025</td>
-        <td><i>Deformations of isolated cyclic quotient singularities</i>, Workshop on Arithmetic and Geometry</td>
+        <td><i>Deformations of isolated cyclic quotient singularities</i>, ICL-TUM Workshop on Arithmetic and Geometry</td>
         </tr>
         <tr>
         <td style="text-align: right">2025</td>
@@ -51,14 +51,14 @@ permalink: /research/
         </tr>
         <tr>
         <td style="text-align: right">2024</td>
-        <td><i>Deforming christmas presents</i>, TopMath Christmas Party</td>
+        <td><i>Deforming christmas presents</i>, TopMath Christmas Party, TUM</td>
         </tr>
         <tr>
         <td style="text-align: right">2024</td>
-        <td><i>F-splitting</i>, Seminar on F-Singularities</td>
+        <td><i>F-splitting</i>, Seminar on F-Singularities, TUM</td>
         </tr>
         <tr>
         <td style="text-align: right">2023</td>
-        <td><i>Charts and fine log-structures</i>, Seminar on Log-Geometry</td>
+        <td><i>Charts and fine log-structures</i>, Seminar on Log-Geometry, TUM</td>
         </tr>
 	</table>
