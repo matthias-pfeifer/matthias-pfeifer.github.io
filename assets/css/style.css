@@ -20,6 +20,7 @@
     --bg-banner-button: rgba(0,102,204,0.2);
     --banner-button-hover: rgba(0,102,204,0.4);
     --banner-button-color: rgb(17, 77, 136);
+    --bg-theme-toggle: rgba(0,0,0,0.5);
 }
 
 /* dark-mode overrides via toggle class */
@@ -42,7 +43,8 @@
     --bg-banner: var(--bg-section);
     --bg-banner-button: rgba(255,255,255,0.2);
     --banner-button-hover: rgba(255,255,255,0.4);
-    --banner-button-color: white;   
+    --banner-button-color: white;
+    --bg-theme-toggle: rgba(255,255,255,0.5);
 }
 
 * {
@@ -75,7 +77,8 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    line-height: 1.1em;
 }
 
 header p {
@@ -105,11 +108,13 @@ nav a:hover {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: none;
+    background: var(--bg-theme-toggle);
     border: none;
     font-size: 1.2em;
     cursor: pointer;
     margin-left: 20px;
+    border-radius: 25%;
+    padding: 2px;
 }
 
 main {
